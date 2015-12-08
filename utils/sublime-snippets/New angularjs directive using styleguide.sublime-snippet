@@ -1,7 +1,7 @@
 <snippet>
     <!-- This is a snippet from https://github.com/dineshtrivedi/angularjs-styleguide -->
     <!-- Licensed under MIT License - WITHOUT WARRANTY -->
-    <content><![CDATA[
+	<content><![CDATA[
 (function () {
 
     "use strict";
@@ -11,19 +11,24 @@
     function ${2:newDirective} () {
         var directive = {
             restrict: "${3:A|E}",
-            // templateUrl: ${4:'myproject-folder/mymodule-folder/my-directive-file.html'}
+            templateUrl: ${4:'myproject-folder/mymodule-folder/my-directive-file.html'}
             // replace: true,
             // link: ${2/(.*)/$1Link/}
             scope:{},
             controller: ${2/(.*)/$1Controller/},
-            controllerAs: '${5:variable}'.
+            controllerAs: '${5:vc}'.
         }
         return directive;
 
         // function ${2/(.*)/$1Link/}(){}
+
+        /*jshint validthis: true */
+        function ${2/(.*)/$1Controller/}(){
+            var vc = this;
+        }
     }
 })();
 ]]></content>
-    <tabTrigger>directive</tabTrigger>
-    <scope>source.js</scope>
+	<tabTrigger>directive</tabTrigger>
+	<scope>source.js</scope>
 </snippet>
