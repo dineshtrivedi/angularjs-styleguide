@@ -4,8 +4,6 @@ Esse trabalho é motivado pela necessidade de trazer ao universo angularjs a san
 
 Esse é um projeto em constante desenvolvimento e não deve ser adotado como um guia infalível, apenas como um conjunto de boas práticas de escrita para projetos angularjs.
 
-Não se trata de uma versão em português do famoso [angular-styleguide de John Papa](https://github.com/johnpapa/angular-styleguide) mas da coleção de boas práticas aprendidas utilizadas no cotidiano de trabalho da equipe que escreveu este guia.
-
 É um guia direto ao ponto, que parte do código para explicar a teoria. Na maior parte do guia o desenvolvedor precisará apenas de conhecimentos básicos de angular, javascript e de senso crítico.  
 
 Sinta-se livre para participar da escrita desse projeto fornecendo o que você puder de melhor: [críticas, sugestões, divulgação e pull requests](https://github.com/dineshTrivedi/angularjs-styleguide/issues) são bem vindos.
