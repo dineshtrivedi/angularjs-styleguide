@@ -1,0 +1,25 @@
+<snippet>
+    <!-- This is a snippet from https://github.com/dineshtrivedi/angularjs-styleguide -->
+    <!-- Licensed under MIT License - WITHOUT WARRANTY -->
+    <content><![CDATA[
+(function(){
+    "use strict";
+
+    angular.module('${1:myproject.mymodule}').factory('${2:NewFactoryModel}', ${2:NewFactoryModel});
+
+    ${2:NewFactoryModel}.\$inject = [${3/([A-Z][a-z]*)/\"$1\"/g}];
+
+    function ${2:NewFactoryModel}(${3:Things, To, Inject}){
+        var model = {
+            init: init,
+        };
+
+        return model;
+
+        function init(){}
+    }
+})();
+]]></content>
+    <tabTrigger>factory</tabTrigger>
+    <scope>source.js</scope>
+</snippet>

@@ -1,0 +1,14 @@
+{
+    "structure": {
+        "readme": "intro.md"
+    },
+    "title" : "Angular JS - Styleguide",
+    "description": "Guia de melhores práticas para escrever angular idiomático e componentizado.",
+    "language": "pt",
+    "plugins": ["styles-sass", "disqus"],
+    "pluginsConfig": {
+        "disqus": {
+            "shortName": "angularjs-styleguide"
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "angularjs-styleguide",
+  "version": "1.0.0",
+  "description": "Guia de melhores práticas para escrever angular idiomático e componentizado.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dineshTrivedi/angularjs-styleguide.git"
+  },
+  "keywords": [
+    "angular",
+    "js",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "jota teles, dinesh trivedi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dineshTrivedi/angularjs-styleguide/issues"
+  },
+  "homepage": "https://github.com/dineshTrivedi/angularjs-styleguide#readme",
+  "devDependencies": {
+    "bower": "^1.7.2"
+  }
+}
