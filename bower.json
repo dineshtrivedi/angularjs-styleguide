@@ -1,0 +1,22 @@
+{
+  "name": "angularjs-styleguide",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dineshTrivedi/angularjs-styleguide",
+  "authors": [
+    "(dinesh <dinesh.dart@gmail.com>)"
+  ],
+  "description": "Guia de melhores práticas para escrever angular idiomático e componentizado.",
+  "keywords": [
+    "angular",
+    "js",
+    "javascript"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
